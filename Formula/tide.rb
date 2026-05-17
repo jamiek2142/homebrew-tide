@@ -5,7 +5,7 @@ class Tide < Formula
   desc "Terminal IDE written in Rust"
   homepage "https://github.com/jamiek2142/tide"
   url "https://github.com/jamiek2142/tide/releases/download/0.2.0/tide-mac.tar.gz"
-  sha256 "c3cbc9f0c12b7857ac249ffe97a0e4bbf7071e443e64b6aabbdaa4f701aee36"
+  sha256 "c3cbc9f0c12b7857ac249ffe97a0e4bbf7071e443e64b6aabbdaa4f701aee36e"
   version "0.2.0"
 
   def install

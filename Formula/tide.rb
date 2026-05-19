@@ -1,12 +1,11 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Tide < Formula
   desc "Terminal IDE written in Rust"
   homepage "https://github.com/jamiek2142/tide"
-  url "https://github.com/jamiek2142/tide/releases/download/0.2.2/tide-mac.tar.gz"
-  sha256 "c3bfb5862e6ae67f894c348d60f569f363df093b56cfa584b2f7e2cc98c438c4"
-  version "0.2.2"
+  url "https://github.com/jamiek2142/tide/releases/download/0.2.3/tide-mac.tar.gz"
+  sha256 "bffb175fc9b4d870f08599bd18cc314e0852df61e21b455952e415b6ae5b08f8"
+  version "0.2.3"
   def install
     bin.install "tide"
   end

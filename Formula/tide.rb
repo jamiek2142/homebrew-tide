@@ -3,9 +3,9 @@
 class Tide < Formula
   desc "Terminal IDE written in Rust"
   homepage "https://github.com/jamiek2142/tide"
-  url "https://github.com/jamiek2142/tide/releases/download/0.3.3/tide-mac.tar.gz"
-  sha256 "5a9e194a1f049effa5715f920df6e646b4072dc1afb65a3dab6a37386a741713"
-  version "0.3.3"
+  url "https://github.com/jamiek2142/tide/releases/download/0.3.4/tide-mac.tar.gz"
+  sha256 "054ed0777dd55943d394d0ae490d6af3a86c6e702caa7b31ca0308400498a0ac"
+  version "0.3.4"
   def install
     bin.install "tide"
   end
